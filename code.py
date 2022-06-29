@@ -19,7 +19,7 @@ print(train_names)
 
 #testing the model
 
-test_path = "./test/test.jpeg"
+test_path = "./test/test.jpg"
 image = cv2.imread(test_path)
 face_locations = fr.face_locations(image)
 test_encodings = fr.face_encodings(image,face_locations)
